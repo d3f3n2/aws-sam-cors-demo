@@ -39,7 +39,7 @@ pip install boto3==1.4.4
 # Install packages listed in requirements to a directory for package deployment
 
 mkdir ./build
-cp -p -r ./crab ./build/crab
+cp -p -r ./movies ./build/movies
 pip install -r requirements.txt -t ./build
 
 # Replace Swagger AWS account id and region placeholders with your own
