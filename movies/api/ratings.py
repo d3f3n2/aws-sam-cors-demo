@@ -63,8 +63,8 @@ def create_rating(event, context):
 
         # Define item
         item = {
-            'title': body["name"],
-            'rating': body["type"],
+            'title': body["title"],
+            'rating': body["rating"],
             "year": year
         }
 
